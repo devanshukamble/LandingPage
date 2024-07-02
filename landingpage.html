@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>landing page</title>
+    <!-- page fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- my css -->
+    <link rel="stylesheet" href="/landingpage.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="logo-container">
+            <img src="/img/logo.webp" alt="renoreach" id="main-logo">
+        </div>
+        <div class="top-section1">
+            <div id="background1-img">
+                <p class="top-section1-p1">Effortless Business Growth</p>
+                <p class="top-section1-p2">We Generate <span class="red-font-p">Quote-Ready</span>Home <br>
+                    Improvement<span class="red-font-p">Leads for You</span></p>
+                <p class="top-section1-p3">No Heavy Lifting Required!</p>
+                <div id="button">
+                    <a href="#form">Get More Leads</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-angle-down fa-beat-fade" style="color: #ffffff;"></i>
+                    <i class="fa-sharp fa-solid fa-angle-down fa-beat-fade" style="color: #ffffff;"></i> 
+                    <i class="fa-sharp fa-solid fa-angle-down fa-beat-fade" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="top-section2">
+            <div class="top-section2-top">
+                <h1>Who Are <span class="red-font-h">We?</span></h1>
+                <p>We're a Chiswick-based agency that helps home improvement companies by delivering top-tier,
+                    quote-ready leads through strategic advertising on popular social media sites. Our targeted approach
+                    not only frees you up to concentrate on your work, but also ensures your growth is driven by
+                    genuinely interested clients, making your business growth smooth and efficient.</p>
+            </div>
+            <div class="top-section2-bottom1">
+                <h1>Our <span class="red-font-h">Process</span></h1>
+                <div class="top-section2-bottom2">
+                    <div>
+                        <img src="/img/num_1.webp" alt="">
+                        <div>
+                            <h3>Gather Content</h3>
+                            <p>In the initial step, we collect visuals that highlight your craftsmanship. These form the
+                                foundation of our strategy, serving to attract a greater number of potential clients to
+                                your
+                                business.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="/img/num_2.webp" alt="">
+                        <div>
+                            <h3>Launch Ads</h3>
+                            <p>Next, we launch ads based on the content we've collected. These ads are strategically
+                                designed and placed on popular social media platforms to capture clients attention.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="/img/num_3.webp" alt="">
+                        <div>
+                            <h3>Generate Leads</h3>
+                            <p>Finally, we collect information from individuals who are genuinely interested in your
+                                services. Prioritising quote-ready leads and eliminating tire kickers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="bottom-section2">
+                <a name="form"></a>
+                <h1>Get 10 New Quote-Ready Leads</h1>
+                <h4>Within 30 Days, or You Don't Pay</h4>
+                <form>
+                    <div>
+                        <label for="fn">Full Name *</label>
+                        <input type="text" name="fn" id="fn" placeholder="Full Name">
+                        <p id="namep"></p>
+                    </div>
+                    <div>
+                        <label for="url">Website *</label>
+                        <input type="text" name="url" id="url" placeholder="Web URL goes here">
+                        <p id="urlp"></p>
+                    </div>
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="email" name="email" id="email" multiple placeholder="Email">
+                        <p id="emailp"></p>
+                    </div>
+                    <div>
+                        <label for="phone">Phone *</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone">
+                        <p id="phonep"></p>
+                    </div>
+                    <div>
+                        <input type="button" value="Get More Leads!" onclick="validate()">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="login-container">
+            <a href="/login.html" target="_self">Login</a>
+        </div>
+        <div class="footer">
+            <div class="imgs">
+                <div>
+                    <img src="/img/home_logo.webp" alt="">
+                    <p>Industry Specialists</p>
+                </div>
+                <div>
+                    <img src="/img/tickmark_logo.webp" alt="">
+                    <p>Guaranteed Results</p>
+                </div>
+                <div>
+                    <img src="/img/search_logo.webp" alt="">
+                    <p>Qualified Leads</p>
+                </div>
+            </div>
+            <div class="footer-img">
+                <img src="/img/logo.webp" alt="" id="footer-logo">
+                <p>renoReach - @2023 All Rights Reserved</p>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/landingpage.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</html>

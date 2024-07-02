@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smtp-js</title>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="fn" id="fn">
+        <input type="button" value="submit" id="submit" onclick="email()">
+    </form>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function email() {
+        data = "Name : "+document.getElementById('fn').value;
+        console.log("test");
+        Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "devanshukamb241004@gmail.com",
+        Password: "820BFDECB333DEE1FB90477264981B37F743",
+        To: 'devanshukamb241004@gmail.com',
+        From: "devanshukamb241004@gmail.com",
+        Subject: "form data",
+        Body: data
+    }).then(
+        message => alert(message)
+    );
+    }
+</script>
+
+</html>
